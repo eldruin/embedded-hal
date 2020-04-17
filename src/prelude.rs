@@ -10,6 +10,9 @@ pub use crate::blocking::i2c::{
     Read as _embedded_hal_blocking_i2c_Read, Write as _embedded_hal_blocking_i2c_Write,
     WriteRead as _embedded_hal_blocking_i2c_WriteRead,
 };
+pub use crate::blocking::i2s::{
+    Read as _embedded_hal_blocking_i2s_Read, Write as _embedded_hal_blocking_i2s_Write,
+};
 pub use crate::blocking::rng::Read as _embedded_hal_blocking_rng_Read;
 pub use crate::blocking::serial::Write as _embedded_hal_blocking_serial_Write;
 pub use crate::blocking::spi::{
