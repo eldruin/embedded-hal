@@ -14,6 +14,7 @@ pub use blocking::i2c::{
 pub use crate::blocking::i2s::{
     Read as _embedded_hal_blocking_i2s_Read, Write as _embedded_hal_blocking_i2s_Write,
 };
+pub use crate::i2s::FullDuplex as _embedded_hal_i2s_FullDuplex;
 #[cfg(feature = "unproven")]
 pub use blocking::rng::Read as _embedded_hal_blocking_rng_Read;
 pub use blocking::serial::Write as _embedded_hal_blocking_serial_Write;

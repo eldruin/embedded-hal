@@ -693,6 +693,7 @@ pub mod adc;
 pub mod blocking;
 pub mod digital;
 pub mod fmt;
+pub mod i2s;
 pub mod prelude;
 pub mod serial;
 pub mod spi;
